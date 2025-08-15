@@ -31,10 +31,23 @@ Underweight | 33 | Sibo | 1
 Neutropenia | 33 | Multiple phenotypes | 39
 Autoimmune | 31
 
+## Test Sets
+The most exciting thing about this model is that it performs well on data it was not trained on. Here are the results of training on Multiple Sclerosis and Parkinson's datasets
+<img width="812" height="514" alt="image" src="https://github.com/user-attachments/assets/fd9360bd-2568-4553-b4af-bad65f636b83" />
+
+<img width="808" height="447" alt="image" src="https://github.com/user-attachments/assets/72d448bd-d063-423b-8755-2b7ee213718b" />
+
+<img width="971" height="571" alt="image" src="https://github.com/user-attachments/assets/12780cd7-5479-4250-af91-f699f95f1df9" />
+
+
 ## Microbiome Image and Saliencey Map
 The saliencey map is a way of opening the black box of deep learning models. It provides an explanation of how the model made its predictions. In this case, a heatmap of the importance of each pixel (taxon) to the accuracy of classification.
 
-<img width="969" height="502" alt="image" src="https://github.com/user-attachments/assets/233b5d03-cb27-4db5-8ad1-27890b7b1fc0" />
+<img width="957" height="489" alt="image" src="https://github.com/user-attachments/assets/48d475f5-a828-4902-b1af-0690db212f37" />
+
+<img width="954" height="510" alt="image" src="https://github.com/user-attachments/assets/9211baa8-9c67-4078-873f-3e24d738c72a" />
+
+
 
 
 ## References
