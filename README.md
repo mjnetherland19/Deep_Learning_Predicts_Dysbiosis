@@ -48,7 +48,7 @@ The most exciting thing about this model is that it performs well on data it was
 
 
 ## Microbiome Image and Saliencey Map
-The saliencey map is a way of opening the black box of deep learning models. It provides an explanation of how the model made its predictions. In this case, a heatmap of the importance of each pixel (taxon) to the accuracy of classification.
+The saliencey map is a way of opening the black box of deep learning models. It provides an explanation of how the model made its predictions, in the form of a heatmap of the importance of each pixel (taxon) to the accuracy of classification.
 
 <img width="957" height="489" alt="image" src="https://github.com/user-attachments/assets/48d475f5-a828-4902-b1af-0690db212f37" />
 
