@@ -31,6 +31,10 @@ Underweight | 33 | Sibo | 1
 Neutropenia | 33 | Multiple phenotypes | 39
 Autoimmune | 31
 
+## Microbiome Image and Saliencey Map
+The saliencey map is a way of opening the black box of deep learning models. It provides an explanation of how the model made its predictions. In this case, a heatmap of the importance of each pixel (taxon) to the accuracy of classification.
+
+<img width="969" height="502" alt="image" src="https://github.com/user-attachments/assets/233b5d03-cb27-4db5-8ad1-27890b7b1fc0" />
 
 
 ## References
