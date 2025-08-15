@@ -2,7 +2,14 @@
 Deep Learning of Human Gut Microbiome Images: A General Dysbiosis Prediction Model
 
 ## Summary
-Short-read WGS sequence data derived from human stool samples, totalling 17,000+ samples and 45 phenotypes, was downloaded from pubic repositories and profiled with the [MetaTax pipeline](https://github.com/mjnetherland19/MetaTax). Healthy and non-healthy metadata was curated manually, and the taxonomic profiles for each cohort were transformed and batch corrected. Separately, each cohort's correlation matrix was sent for dimensional reduction by Uniform Manifold Approximation and Projection (UMAP) and hierarchical clustering, to find clusters of taxa. Clusters are used for color filling and the Jonker-Volgenant (J-V) algorithm is used to map the UMAP coordinates to an ordered grid. Using this mapping, individual sample images are constructed with each pixel location corresponding to the presence of a taxon and its color corresponding to its cluster membership. A CNN was constructed according to the GoogLeNet architecture and trained on those images for binary healthy/non-healthy prediction. The inspiration for this image building pipeline and model architecture was inspired by Shen, Wan Xiang, et al. and their MEGMA model [1]. My model differs from theirs in that I use presence/absence instead of relative abundance for pixel intensity, the greater number of samples used for training, and the interpretation of the salience maps to identify phenotype correlated taxa, as this was not detailed in their publication.
+1. Short-read WGS sequence data derived from human stool samples, totalling 17,000+ samples and 45 phenotypes, was downloaded from pubic repositories and profiled with the [MetaTax pipeline](https://github.com/mjnetherland19/MetaTax).
+2. Healthy and non-healthy metadata was curated manually, and the taxonomic profiles for each cohort were transformed and batch corrected.
+3. Separately, each cohort's correlation matrix was sent for dimensional reduction by Uniform Manifold Approximation and Projection (UMAP) and hierarchical clustering, to find clusters of taxa.
+4. Clusters are used for color filling and the Jonker-Volgenant (J-V) algorithm is used to map the UMAP coordinates to an ordered grid.
+5. Using these coordinates, individual sample images are constructed with each pixel location corresponding to the presence of a taxon and its color corresponding to its cluster membership.
+6. A Convolutional Neural Network CNN was constructed according to the GoogLeNet architecture and trained on those images for binary healthy/non-healthy prediction.
+
+The inspiration for this image building pipeline and model architecture was inspired by Shen, Wan Xiang, et al. and their MEGMA model [1]. My model differs from theirs in that I use presence/absence instead of relative abundance for pixel intensity, the greater number of samples used for training, and the interpretation of the salience maps to identify phenotype correlated taxa, as this was not detailed in their publication.
 
 ## Dataset Summary
 | Phenotype        | # of samples            | Phenotype        | # of samples            |
