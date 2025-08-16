@@ -44,7 +44,8 @@ The most exciting thing about this model is that it performs well on data it was
 
 <img width="808" height="447" alt="image" src="https://github.com/user-attachments/assets/72d448bd-d063-423b-8755-2b7ee213718b" />
 
-<img width="971" height="571" alt="image" src="https://github.com/user-attachments/assets/12780cd7-5479-4250-af91-f699f95f1df9" />
+<img width="1059" height="609" alt="image" src="https://github.com/user-attachments/assets/52b6a3e5-455b-4f68-af09-6c49a913098c" />
+
 
 
 ## Microbiome Image and Saliencey Map
@@ -52,7 +53,7 @@ The saliencey map is a way of opening the black box of deep learning models. It 
 
 <img width="957" height="489" alt="image" src="https://github.com/user-attachments/assets/48d475f5-a828-4902-b1af-0690db212f37" />
 
-<img width="1059" height="609" alt="image" src="https://github.com/user-attachments/assets/0fcc8d98-5ab6-46c0-961d-087871c3683e" />
+
 
 
 ## References
