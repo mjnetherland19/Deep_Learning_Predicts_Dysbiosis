@@ -52,9 +52,7 @@ The saliencey map is a way of opening the black box of deep learning models. It 
 
 <img width="957" height="489" alt="image" src="https://github.com/user-attachments/assets/48d475f5-a828-4902-b1af-0690db212f37" />
 
-<img width="954" height="510" alt="image" src="https://github.com/user-attachments/assets/9211baa8-9c67-4078-873f-3e24d738c72a" />
-
-
+<img width="1059" height="609" alt="image" src="https://github.com/user-attachments/assets/0fcc8d98-5ab6-46c0-961d-087871c3683e" />
 
 
 ## References
