@@ -14,7 +14,7 @@ The inspiration for this image building pipeline and model architecture was insp
 ## Dataset Summary
 | Phenotype        | # of samples            | Phenotype        | # of samples            |
 |:-------------:|:-------------------------:|:-------------:|:-------------------------:|
-Healthy | 11889  | Colorectal polyps | 30
+Healthy | 11,889  | Colorectal polyps | 30
 Ulcerative Colitis | 434 | Salmonellosis | 29
 Crohn's disease | 374 | Cancer | 27
 Colorectal cancer | 352 | Autistic Spectrum Disorder | 25
