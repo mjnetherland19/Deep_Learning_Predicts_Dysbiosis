@@ -44,7 +44,7 @@ The most exciting thing about this model is that it performs well on data it was
 
 <img width="808" height="447" alt="image" src="https://github.com/user-attachments/assets/72d448bd-d063-423b-8755-2b7ee213718b" />
 
-<img width="1059" height="609" alt="image" src="https://github.com/user-attachments/assets/52b6a3e5-455b-4f68-af09-6c49a913098c" />
+<img width="1055" height="557" alt="image" src="https://github.com/user-attachments/assets/2406fe81-b5ca-451b-8357-aa2c481e426d" />
 
 
 
