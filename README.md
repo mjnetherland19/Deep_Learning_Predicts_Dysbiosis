@@ -2,7 +2,7 @@
 Deep Learning of Human Gut Microbiome Images: A General Dysbiosis Prediction Model
 
 ## Summary
-1. Short-read WGS sequence data derived from human stool samples, totalling 17,000+ samples and 45 phenotypes, was downloaded from pubic repositories and profiled with the [MetaTax pipeline](https://github.com/mjnetherland19/MetaTax).
+1. Short-read WGS sequence data derived from human stool, totalling 17,000+ samples and 45 phenotypes, was downloaded from pubic repositories and profiled with the [MetaTax pipeline](https://github.com/mjnetherland19/MetaTax).
 2. Healthy and non-healthy metadata was curated manually, and the taxonomic profiles for each cohort were transformed and batch corrected.
 3. Separately, each cohort's correlation matrix was sent for dimensional reduction by Uniform Manifold Approximation and Projection (UMAP) and hierarchical clustering, to find clusters of taxa.
 4. Clusters are used for color filling and the Jonker-Volgenant (J-V) algorithm is used to map the UMAP coordinates to an ordered grid.
